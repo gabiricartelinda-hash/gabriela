@@ -40,7 +40,18 @@
             <p>Por: Gabriela Ricarte</p>
             <p>Boas-vindas ao meu novo blog! Aqui Vou
             compartilhar dicas de programação e curiosidades
-            da área de tecnologia.</p>   
+            da área de tecnologia.</p> 
+            <button> ❤️ <span>0</span></button>  
+            </div>
+
         </main>
-    </body>
+ </body>
+ <script>
+    const botao = document.querySelector('button');
+    botao.addEventListener("click" , botaoClicado);
+
+    function botaoClicado(){
+        console.log("fui clicado");
+    }
+ </script>
 </html>
